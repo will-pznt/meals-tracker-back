@@ -34,26 +34,6 @@ Angular SSR (via Express) → Server-side rendering support for the frontend
 
 🔐 Uses .env file to securely manage keys
 
-🔑 Environment Variables
-
-Create a .env file inside /server with the following keys:
-USDA_API_KEY=your_usda_api_key_here
-
-Create a .firebase-services-account.json file inside /server containing the firebase information and private key
-{
-  "type": "service_account",
-  "project_id": "",
-  "private_key_id": "",
-  "private_key": "",
-  "client_email": "",
-  "client_id": "",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "",
-  "universe_domain": "googleapis.com"
-}
-
 
 🛠️ Installation & Running
 1. Install dependencies
